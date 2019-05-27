@@ -38,9 +38,26 @@
 
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY "Projeto-1-SD"
+set_global_assignment -name TOP_LEVEL_ENTITY "Menor-que-1-bit"
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:51:01  MAY 27, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION "9.1 SP2"
 set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name BDF_FILE "Soma-1-bit.bdf"
+set_global_assignment -name BDF_FILE "Mux2-1.bdf"
+set_global_assignment -name BDF_FILE "Comp-2-1-bit.bdf"
+set_global_assignment -name BDF_FILE "Igual-1-bit.bdf"
+set_global_assignment -name BDF_FILE "Maior-que-1-bit.bdf"
+set_global_assignment -name BDF_FILE "Menor-que-1-bit.bdf"
+set_global_assignment -name BDF_FILE "Xor-1-bit.bdf"
+set_global_assignment -name BDF_FILE "And-1-bit.bdf"
+set_global_assignment -name BDF_FILE "Somador-Subtrator-4-bits.bdf"
+set_global_assignment -name BDF_FILE "Comp-2-4-bits.bdf"
+set_global_assignment -name BDF_FILE "Igual-4-bits.bdf"
+set_global_assignment -name BDF_FILE "Maior-que-4-bits.bdf"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

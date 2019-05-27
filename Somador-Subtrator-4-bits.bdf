@@ -837,63 +837,20 @@ applicable agreement for further details.
 	(pt 400 584)
 )
 (connector
-	(pt 784 272)
-	(pt 792 272)
-)
-(connector
 	(pt 784 280)
 	(pt 784 272)
-)
-(connector
-	(pt 640 272)
-	(pt 648 272)
 )
 (connector
 	(pt 640 280)
 	(pt 640 272)
 )
 (connector
-	(pt 648 8)
-	(pt 648 272)
-)
-(connector
-	(pt 496 272)
-	(pt 504 272)
-)
-(connector
 	(pt 496 280)
 	(pt 496 272)
 )
 (connector
-	(pt 504 8)
-	(pt 504 272)
-)
-(connector
-	(pt 504 8)
-	(pt 648 8)
-	(bus)
-)
-(connector
-	(pt 352 272)
-	(pt 360 272)
-)
-(connector
 	(pt 352 280)
 	(pt 352 272)
-)
-(connector
-	(pt 360 8)
-	(pt 360 272)
-)
-(connector
-	(pt 288 8)
-	(pt 360 8)
-	(bus)
-)
-(connector
-	(pt 360 8)
-	(pt 504 8)
-	(bus)
 )
 (connector
 	(text "S[3]" (rect 336 437 348 457)(font "Arial" )(vertical))
@@ -936,17 +893,60 @@ applicable agreement for further details.
 	(pt 784 464)
 )
 (connector
-	(pt 648 8)
-	(pt 792 8)
+	(pt 608 48)
+	(pt 752 48)
 	(bus)
 )
 (connector
-	(pt 792 8)
-	(pt 792 272)
+	(pt 784 272)
+	(pt 816 272)
 )
 (connector
-	(pt 608 48)
-	(pt 752 48)
+	(pt 816 8)
+	(pt 816 272)
+)
+(connector
+	(pt 640 272)
+	(pt 672 272)
+)
+(connector
+	(pt 672 8)
+	(pt 672 272)
+)
+(connector
+	(pt 672 8)
+	(pt 816 8)
+	(bus)
+)
+(connector
+	(pt 496 272)
+	(pt 528 272)
+)
+(connector
+	(pt 528 8)
+	(pt 528 272)
+)
+(connector
+	(pt 528 8)
+	(pt 672 8)
+	(bus)
+)
+(connector
+	(pt 352 272)
+	(pt 384 272)
+)
+(connector
+	(pt 384 8)
+	(pt 384 272)
+)
+(connector
+	(pt 288 8)
+	(pt 384 8)
+	(bus)
+)
+(connector
+	(pt 384 8)
+	(pt 528 8)
 	(bus)
 )
 (junction (pt 752 72))
@@ -960,9 +960,9 @@ applicable agreement for further details.
 (junction (pt 464 72))
 (junction (pt 608 72))
 (junction (pt 440 440))
-(junction (pt 648 8))
-(junction (pt 504 8))
-(junction (pt 360 8))
 (junction (pt 496 464))
 (junction (pt 640 464))
 (junction (pt 784 464))
+(junction (pt 672 8))
+(junction (pt 528 8))
+(junction (pt 384 8))
